@@ -1,0 +1,41 @@
+.inputc {
+    background-color: #31344C;
+    color: white;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+.inputc::placeholder {
+    color: #ffffff; 
+}
+
+.inputc:focus {
+    background-color: #131740; /* Asegura el color de fondo cuando está en foco */
+    color: white; /* Asegura el color del texto cuando está en foco */
+    border-color: #007bff; /* Color del borde al hacer foco (opcional) */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Sombra del borde (opcional) */
+}
+
+.custombtn {
+    background-color: #7444FF;
+    color: white;
+    padding: 1rem 1.5rem;
+    width: 70%;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+.footer {
+    text-align: center;
+    color: #888888;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.text-danger {
+    color: #FF6F6F;
+}
